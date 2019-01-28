@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kegansovay/streaming-media-assignment.git"
+  },
+  "author": "Kegan Sovay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kegansovay/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/kegansovay/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.15.0"
+  }
+}
